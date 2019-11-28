@@ -1,6 +1,11 @@
 # pems
 A javascript full-stack power equipment management system.
 
+## Demo
+
+Demo Address: [Power Equipment Management System](https://pems.rannstudio.com) <br/>
+Account: admin/admin
+
 ## Screenshots
 
 * Login Page
@@ -21,7 +26,7 @@ A javascript full-stack power equipment management system.
 
 ## Tech Stack
 
-#### Frontend
+### Frontend
 
 - [ ] Typescript
 - [x] React
@@ -31,12 +36,13 @@ A javascript full-stack power equipment management system.
 - [x] Axios
 - [ ] GraphQL
 - [x] AliOSS
+- [ ] i18n
 - [x] Sass
 - [x] ESLint
 - [x] Babel
 - [x] Webpack
 
-#### Backend (Node)
+### Backend (Node)
 
 - [x] Koa2
 - [ ] Express
@@ -45,7 +51,7 @@ A javascript full-stack power equipment management system.
 
 ## Setup
 
-#### Backend
+### Backend
 
 * MongoDB
 
@@ -57,7 +63,7 @@ Add your MongoDB path in *server/config/index.js*.
 
 **JWT Secret**, **expire date**, **serve path** also can be modified in *server/config/index.js*.
 
-#### Frontend
+### Frontend
 
 * Aliyun OSS
 
@@ -71,7 +77,7 @@ Set **HOME_URL** in *views/src/constants.js*, system will redirect to this addre
 
 Set **SERVICE_URL** in *views/config/prod.env.js*. (Deploy Mode)
 
-#### Debug
+### Debug
 
 * build 
 
@@ -91,7 +97,7 @@ npm run dev
 
 Then you can open http://127.0.0.1:3010
 
-#### Deployment
+## Deployment
 
 Upload website dist & server code to your server, and run ```npm run start``` in server folder. 
 (default webpage path is */var/www/pems*, you can config it in *server/config/index.js*)

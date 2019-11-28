@@ -19,7 +19,7 @@ onerror(app);
 validate(app);
 
 app
-  .use(cors())
+  .use(cors({ credentials: true, maxAge: 2592000 })
   .use(logger())
   .use(middleware.util)
   .use(koaJwt({ secret: config.JWT_SECRET }).unless((ctx) => {
