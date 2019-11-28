@@ -1,0 +1,9 @@
+@import "../../style/variables";
+
+.lowvol-content {
+  @extend .main-content;
+
+  .oper-area {
+    margin: 0 0 10px;
+  }
+}

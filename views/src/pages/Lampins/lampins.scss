@@ -1,0 +1,15 @@
+@import "../../style/variables";
+
+.lampins-content {
+  @extend .main-content;
+
+  .title {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .oper-area {
+    margin: 0 0 10px;
+  }
+}

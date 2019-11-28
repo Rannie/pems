@@ -1,0 +1,11 @@
+@import "../../style/variables";
+
+.wl-content {
+  @extend .main-content;
+
+  .title {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+  }
+}

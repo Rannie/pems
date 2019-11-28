@@ -1,0 +1,93 @@
+@import '../../style/variables';
+
+.main-layout {
+  height: 100%;
+  position: relative;
+
+  .line-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 62px;
+    height: 3px;
+    z-index: 10;
+  }
+
+  .menu-head-wrapper {
+    height: $header-height;
+    overflow: hidden;
+
+    .menu-title {
+      display: block;
+      text-align: center;
+      line-height: $header-height;
+      color: $text-color-black;
+      font-size: 17px;
+      height: $header-height;
+    }
+  }
+
+  .main-header {
+    position: relative;
+    background: #ffffff;
+    padding: 0;
+
+    .sep-line {
+      position: absolute;
+      left: 0;
+      top: 13px;
+      bottom: 13px;
+      width: 1px;
+      background-color: $separator-color;
+    }
+
+    .trigger {
+      font-size: 18px;
+      line-height: 64px;
+      padding: 0 24px;
+      cursor: pointer;
+      transition: color .3s;
+    }
+
+    .trigger:hover {
+      color: #1890ff;
+    }
+
+    .user {
+      position: absolute;
+      top: 0;
+      right: 40px;
+
+      .user-avatar {
+        color: #ffffff;
+        background-color: $action-color-blue;
+      }
+
+      .user-name {
+        display: inline-block;
+        height: $header-height;
+        line-height: $header-height;
+        font-size: $font-size-normal;
+        padding-right: 10px;
+      }
+    }
+
+    .sign-out-button {
+      color: $action-color-blue;
+    }
+  }
+
+  .menu-item {
+    font-size: $font-size-normal;
+    height: 50px !important;
+    line-height: 50px !important;
+
+    .icon {
+      font-size: $font-size-normal;
+    }
+  }
+
+  .content {
+    margin: 24px;
+    background: $global-background-color;
+  }
+}

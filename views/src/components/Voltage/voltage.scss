@@ -1,0 +1,9 @@
+@import "../../style/variables";
+
+.voltage-content {
+  @extend .main-content;
+
+  .oper-area {
+    margin: 0 0 10px;
+  }
+}

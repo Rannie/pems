@@ -1,0 +1,12 @@
+@import './colors';
+$header-height: 64px;
+$font-size-normal: 15px;
+$border-radius: 4px;
+
+.main-content {
+  background-color: white;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
