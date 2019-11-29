@@ -102,6 +102,10 @@ Then you can open http://127.0.0.1:3010
 Upload website dist & server code to your server, and run ```npm run start``` in server folder. 
 (default webpage path is */var/www/pems*, you can config it in *server/config/index.js*)
 
+## Wechat Official Account
+
+![wechat](https://raw.githubusercontent.com/Rannie/Rannie.github.io/master/images/Wechat.jpeg)
+
 ## License
 
 MIT License
