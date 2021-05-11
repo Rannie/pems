@@ -27,7 +27,7 @@
     "koa-validate": "^1.0.7",
     "koa-views": "^6.2.0",
     "koa2-cors": "^2.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongoose": "^5.6.11",
     "path-to-regexp": "^3.1.0"
   }
